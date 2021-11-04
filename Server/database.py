@@ -2,7 +2,7 @@ import psycopg2 as dbapi2
 from passlib.hash import pbkdf2_sha256 as hasher
 
 class Database:
-    def __init__(self, host="localhost", user="postgres", password="Bitlitencere.6", dbname="postgres"):
+    def __init__(self, host="", user="", password="", dbname=""):
         self.host = host
         self.user = user
         self.password = password
